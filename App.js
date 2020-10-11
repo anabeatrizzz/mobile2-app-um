@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View, ScrollView, TextInput } from 'react-native';
 import { Video } from 'expo-av';
 import ponei from './assets/ponei.mp4';
+import poneiStatic from './assets/ponei-static.jpg';
 
 export default class App extends React.Component {
   // Método construtor
@@ -40,13 +41,16 @@ export default class App extends React.Component {
         <View style={estilos.videoStyle}>
         <Video
           source={ponei}
-          rate={1.0}
-          volume={1.0}
-          isMuted={false}
-          resizeMode="cover"
-          isLooping
-          useNativeControls
-          style={{ width: 200, height: 200 }}
+					style={{ width: 200, height: 200 }}
+					rate={1.0}
+					volume={1.0}
+					useNativeControls
+					isMuted={false}
+					resizeMode="cover"
+					isLooping
+					posterSource={poneiStatic}
+					posterStyle={{ width: 200, height: 200 }}
+					usePoster
         />
         </View>
       </View>
