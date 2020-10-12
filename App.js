@@ -78,4 +78,4 @@ const estilos = StyleSheet.create({
     position: 'absolute',
     bottom: 1
   }
-})
+});
