@@ -9,6 +9,7 @@ Este é o [primeiro aplicativo](https://youtu.be/XCHhLoyRZBM) que desenvolvo par
 
 # [O que aprendi? :thinking:](#índice)
 - O método `componentDidMount()` coloca os componentes no HTML e o `componentWillMount()` os tira. Ou seja, começa um horário inicial que foi indicado no método `relogio()` e no método `componentDidMount()`, o relógio vai ser mostrado a cada 1 segundo. A cada vez que o relógio for mostrado, ele vai ser limpado, ou seja, vai sair do HTML. Quem faz isso é o `componentWillMount()`.
+- [A não confiar tanto assim no profº Paulo](https://youtu.be/N45g4nKnwic)
 
 <a href="#índice"><h1 align="center">Tela</h1></a>
 <p align="center">
