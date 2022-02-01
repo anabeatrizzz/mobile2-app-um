@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, ScrollView, TextInput } from 'react-native';
 import { Video } from 'expo-av';
 import ponei from './assets/ponei.mp4';
 import poneiStatic from './assets/ponei-static.jpg';
+import estilos from './App.css'
 
 export default class App extends React.Component {
   // Método construtor
@@ -36,7 +37,7 @@ export default class App extends React.Component {
     return(
       <View style={estilos.container}>
         <Text style={estilos.texto}>Relógio ⏰</Text>
-        <Text>{'\n'}</Text>
+        {/* <Text>{'\n'}</Text>
         <Text style={estilos.texto}>{this.state.date}</Text>
         <View style={estilos.videoStyle}>
         <Video
@@ -52,30 +53,8 @@ export default class App extends React.Component {
           posterStyle={{ width: 200, height: 200 }}
           usePoster
         />
-        </View>
+        </View> */}
       </View>
     )
   }
 }
-
-const estilos = StyleSheet.create({
-  container: {
-    flex:  1,
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center'
-  },
-  texto: {
-    fontSize: 60,
-    width: '100%',
-    textAlign: 'center'
-  },
-
-  videoStyle: {
-    width: '100%',
-    justifyContent: 'center',
-    alignItems: 'center',
-    position: 'absolute',
-    bottom: 1
-  }
-})
