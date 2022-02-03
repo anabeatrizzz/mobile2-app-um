@@ -13,12 +13,22 @@ const estilos = StyleSheet.create({
     textAlign: 'center'
   },
 
-  videoStyle: {
+  videoViewStyle: {
     width: '100%',
     justifyContent: 'center',
     alignItems: 'center',
     position: 'absolute',
     bottom: 1
+  },
+
+  video: {
+    width: 200,
+    height: 200
+  },
+
+  posterStyle: {
+    width: 200,
+    height: 200
   }
 })
 
