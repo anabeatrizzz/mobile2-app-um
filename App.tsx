@@ -5,7 +5,7 @@ import ponei from './assets/ponei.mp4';
 import poneiStatic from './assets/ponei-static.jpg';
 import estilos from './App.css'
 
-export default function App() {
+function App() {
   const [date, setDate] = useState(new Date().toLocaleTimeString())
 
   function clock() {
@@ -22,7 +22,7 @@ export default function App() {
     <View style={estilos.container}>
       <Text style={estilos.texto}>Relógio ⏰</Text>
       <Text>{'\n'}</Text>
-      <Text style={estilos.texto}>{date}</Text>
+      <Text testID="clock" style={estilos.texto}>{date}</Text>
       <View style={estilos.videoViewStyle}>
         <Video
           source={ponei}
@@ -41,3 +41,5 @@ export default function App() {
     </View>
   )
 }
+
+export default App
