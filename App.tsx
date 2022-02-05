@@ -22,7 +22,7 @@ export default function App() {
     <View style={estilos.container}>
       <Text style={estilos.texto}>Relógio ⏰</Text>
       <Text>{'\n'}</Text>
-      <Text style={estilos.texto}>{date}</Text>
+      <Text testID="clock" style={estilos.texto}>{date}</Text>
       <View style={estilos.videoViewStyle}>
         <Video
           source={ponei}
