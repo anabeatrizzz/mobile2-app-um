@@ -38,7 +38,7 @@
     "@babel/preset-typescript": "^7.16.7",
     "@types/jest": "^27.4.0",
     "@types/react-native": "^0.66.15",
-    "@types/react-test-renderer": "^17.0.1",
+    "@types/react-test-renderer": "^18.0.0",
     "babel-preset-expo": "9.0.2"
   },
   "private": true
